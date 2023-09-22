@@ -9,7 +9,16 @@
 .menu__list__item,
 .menu__list__item__contato {
     color: var(--color-cuarto);
+    text-decoration: underline;
+    transition: transform 0.3s ease; /* Agrega una transición suave */
 }
+
+.menu__list__item:hover,
+.menu__list__item__contato:hover {
+    transform: scale(1.1); /* Hace más grande el elemento en 20% */
+}
+
+
 
 .menu__list__item a {
     font-weight: bold;

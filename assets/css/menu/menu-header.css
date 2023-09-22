@@ -1,9 +1,13 @@
 .menu__header img {
-    height: 3rem;
+    height: 5rem;
+}
+
+.texto{
+    color: rgb(153, 247, 247);
 }
 
 @media (max-width: 425px) {
     .menu__header img {
-        height: 1.2rem;
+        height: 3rem;
     }
 }

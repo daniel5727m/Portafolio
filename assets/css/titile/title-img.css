@@ -1,6 +1,23 @@
 .title__profile {
+   float: left;
    width: 18rem;
+   transform: translateY(2px);
+   animation: floatImage 2s ease-in-out infinite;
+   /* Resto de estilos */
 }
+
+@keyframes floatImage {
+   0% {
+       transform: translateY(2px);
+   }
+   50% {
+       transform: translateY(-2px);
+   }
+   100% {
+       transform: translateY(2px);
+   }
+}
+
 
 @media (max-width: 768px) {
    .title__profile {

@@ -1,6 +1,6 @@
 .menu{
     display: flex;
-    background-color: var(--color-sec);
+    background-color: var(--color-septimo);
     justify-content: space-between;
     padding: 1rem 2rem;
 }

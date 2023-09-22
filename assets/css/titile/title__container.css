@@ -14,11 +14,15 @@
 .title__network {
     display: flex;
     gap: 2rem;
+    color: var(septi);
 }
 
 .title__network__item:hover {
-    color: var(--color-sec);
+    color: var(--color-primario);
+    transform: scale(1.1); /* Hace más grande el elemento en 20% */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
 }
+
 
 @media (max-width: 768px) {
     .title__bio {
